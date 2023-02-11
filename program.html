@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <style>
+
+    :root{
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .container {
+      width: auto;
+      max-width: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2em 0.4em;
+      font-size: 0.75em;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+      position: absolute;
+      top: -0.5rem;
+      left: -0.5rem;
+      border-radius: 50rem !important;
+      background-color: #666666;
+    }
+
+    .with-badge {
+      position: relative;
+      justify-content: space-between !important;
+      align-items: center !important;
+    }
+
+    .title {
+      font-size: 1rem;
+    }
+
+    .calendar {
+      font-size: 1rem;
+    }
+
+    .author {
+      padding-left: 1rem;
+      font-size: 0.8rem;
+      white-space: nowrap;
+      font-weight: 700;
+    }
+
+    .affiliation {
+      padding-left: 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #777;
+    }
+
+    div.topic {
+      font-size: 1.44rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    div.session {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    li.session {
+      background-color: #ffffff77;
+    }
+
+    ul {
+      list-style:none;
+      padding: 0;
+      margin:0;
+    }
+
+    li {
+      padding: 0.8rem;
+      margin-bottom: 0.8rem;
+    }
+
+    li.presentation {
+      padding: 0.5rem;
+      background-color: #ffffff77;
+      padding-top: 0.8rem;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <main class="container">
+    <ul id="list">
+    </ul>
+  </main>
+
+</body>
+
+<script src='program-oral.js'></script>
+<script type="text/javascript">
+  var list = document.getElementById("list")
+  for (var day in program) {
+    var topic = document.createElement('li')
+    topic.setAttribute('id', program[day]['id'])
+    topic.style.backgroundColor = program[day]['color']
+    topic_label = document.createElement('div')
+    topic_label.setAttribute('class', 'topic')
+    topic_label.appendChild(document.createTextNode(program[day]['label']))
+    topic.appendChild(topic_label)
+    calendar = document.createElement('span')
+    calendar.setAttribute('class', 'calendar')
+    for (var cal_day in program) {
+      if (cal_day != day) {
+        calendar.innerHTML += " · <a href=\"#"+program[cal_day]['id']+"\">jump to "+program[cal_day]['id']+"</a>"
+      }
+    }
+    topic_label.appendChild(calendar)
+    list.appendChild(topic)
+    var sessions = program[day]['sessions']
+    if (Array.isArray(sessions) && sessions.length) {
+      session_list = document.createElement('ul')
+      for (var session_ix in sessions) {
+        session_item = document.createElement('li')
+        
+        label_content = sessions[session_ix]['label']
+        if (label_content){
+          session_item.setAttribute('class', 'session')
+          session_label = document.createElement('div')
+          session_label.setAttribute('class', 'session')
+          session_label.appendChild(document.createTextNode(label_content))
+          session_item.appendChild(session_label)
+
+          chair_content = sessions[session_ix]['chairs']
+          if (chair_content){
+            author = document.createElement('div')
+            author.setAttribute('class', 'author')
+            author.appendChild(document.createTextNode('Session chairs: ' + chair_content))
+            session_label.appendChild(author)
+          }
+
+          badge_content = sessions[session_ix]['badge']
+          if (badge_content){
+            session_item.setAttribute('class', 'with-badge session')
+            badge = document.createElement('span')
+            badge.setAttribute('class', 'badge')
+            badge.appendChild(document.createTextNode(badge_content))
+            session_item.appendChild(badge)
+          }       
+        }
+        
+        var presentations = sessions[session_ix]['presentations']
+        if (Array.isArray(presentations) && presentations.length){
+          presentation_list = document.createElement('ul')
+          for (var presentation_ix in presentations) {
+            presentation_item = document.createElement('li')
+            presentation_item.setAttribute('class', 'with-badge presentation')
+            
+            badge_content = presentations[presentation_ix]['badge']
+            if (badge_content){
+              badge = document.createElement('span')
+              badge.setAttribute('class', 'badge')
+              badge.appendChild(document.createTextNode(badge_content))
+              presentation_item.appendChild(badge)
+            }
+
+            title_content = presentations[presentation_ix]['presentation']
+            if (title_content){
+              title = document.createElement('div')
+              title.setAttribute('class', 'title')
+              title.appendChild(document.createTextNode(title_content))
+              presentation_item.appendChild(title)
+            }
+
+            author_content = presentations[presentation_ix]['author']
+            if (author_content){
+              author = document.createElement('div')
+              author.setAttribute('class', 'author')
+              author.appendChild(document.createTextNode(author_content))
+              presentation_item.appendChild(author)
+            }
+
+            affiliation_content = presentations[presentation_ix]['affiliation']
+            if (affiliation_content){
+              affiliation = document.createElement('div')
+              affiliation.setAttribute('class', 'affiliation')
+              affiliation.appendChild(document.createTextNode(affiliation_content))
+              presentation_item.appendChild(affiliation)
+            }
+
+            presentation_list.appendChild(presentation_item)
+          }
+          session_item.appendChild(presentation_list)
+        }
+        session_list.appendChild(session_item)
+      }
+      topic.appendChild(session_list)
+    }
+  }
+</script>
+
+</html>
