@@ -41,6 +41,24 @@
       background-color: #666666;
     }
 
+    .badge-right {
+      display: inline-block;
+      padding: 0.2em 0.4em;
+      font-size: 0.75em;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+      position: absolute;
+      top: -0.5rem;
+      right: -0.5rem;
+      border-radius: 50rem !important;
+      background-color: #666666;
+    }
+
     .with-badge {
       position: relative;
       justify-content: space-between !important;
@@ -72,7 +90,7 @@
       padding-left: 1rem;
       font-size: 0.8rem;
       font-weight: 700;
-      color: #777;
+      color: #0007;
     }
 
     div.topic {
@@ -175,7 +193,7 @@
             badge.setAttribute('class', 'badge')
             badge.appendChild(document.createTextNode(badge_content))
             session_item.appendChild(badge)
-          }       
+          }
         }
         
         var presentations = sessions[session_ix]['presentations']
@@ -193,12 +211,27 @@
               presentation_item.appendChild(badge)
             }
 
+            if (presentations[presentation_ix]['duramat']){
+              session_item.setAttribute('class', 'with-badge session')
+              badge = document.createElement('span')
+              badge.setAttribute('class', 'badge-right')
+              badge.appendChild(document.createTextNode('DuraMAT'))
+              presentation_item.appendChild(badge)
+            }
+
             title_content = presentations[presentation_ix]['presentation']
             if (title_content){
               title = document.createElement('div')
               title.setAttribute('class', 'title')
-              title.appendChild(document.createTextNode(title_content))
-              presentation_item.appendChild(title)
+              if (presentations[presentation_ix]['url']) {
+                link = document.createElement('a')
+                link.setAttribute('href', presentations[presentation_ix]['url'])
+                link.appendChild(document.createTextNode(title_content))
+                presentation_item.appendChild(link)
+              } else {
+                title.appendChild(document.createTextNode(title_content))
+                presentation_item.appendChild(title)
+              }
             }
 
             author_content = presentations[presentation_ix]['author']
