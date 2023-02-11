@@ -60,6 +60,12 @@
       font-weight: 700;
     }
 
+    .chairs {
+      padding-left: 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
     .affiliation {
       padding-left: 1rem;
       font-size: 0.8rem;
@@ -155,7 +161,7 @@
           chair_content = sessions[session_ix]['chairs']
           if (chair_content){
             author = document.createElement('div')
-            author.setAttribute('class', 'author')
+            author.setAttribute('class', 'chairs')
             author.appendChild(document.createTextNode('Session chairs: ' + chair_content))
             session_label.appendChild(author)
           }
