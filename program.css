@@ -1,0 +1,141 @@
+:root{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  margin: 0rem;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  border-radius: 50rem !important;
+  background-color: #666666;
+}
+
+.badge-time {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  border-radius: 50rem !important;
+  background-color: #666666;
+}
+
+.badge-right {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  border-radius: 50rem !important;
+  background-color: #666666;
+}
+
+.with-badge {
+  position: relative;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.calendar {
+  font-size: 1rem;
+}
+
+.author {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.authors {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.affiliation {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0007;
+}
+
+div.topic {
+  font-size: 1.44rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+div.session {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+li.session {
+  background-color: #ffffff77;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+li.presentation {
+  padding: 0.5rem;
+  background-color: #ffffff77;
+  padding-top: 0.8rem;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
