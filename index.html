@@ -24,6 +24,7 @@
     var topic = document.createElement('li')
     topic.setAttribute('id', program[day]['id'])
     topic.style.backgroundColor = program[day]['color']
+    topic.setAttribute('class', 'breaking')
     topic_label = document.createElement('div')
     topic_label.setAttribute('class', 'topic')
     topic_label.appendChild(document.createTextNode(program[day]['label']))
