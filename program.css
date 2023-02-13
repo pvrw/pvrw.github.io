@@ -17,6 +17,7 @@ body {
   .container {
     width: 60rem;
     margin: 0 auto;
+    column-count: 2;
   }
 }
 
@@ -36,6 +37,7 @@ body {
   left: -0.5rem;
   border-radius: 50rem !important;
   background-color: #666666;
+  break-inside: avoid;
 }
 
 .badge-time {
@@ -54,6 +56,7 @@ body {
   left: -0.5rem;
   border-radius: 50rem !important;
   background-color: #666666;
+  break-inside: avoid;
 }
 
 .badge-right {
@@ -101,6 +104,12 @@ body {
   font-weight: 700;
 }
 
+.chairs {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 .affiliation {
   padding-left: 1rem;
   font-size: 0.8rem;
@@ -124,9 +133,19 @@ div.session {
   line-height: 1.2;
 }
 
-li.session {
-  background-color: #ffffff77;
-  break-inside: avoid;
+@media not print{
+  li.session {
+    background-color: #ffffff77;
+    break-inside: avoid;
+  }
+}
+
+@media print{
+  li.session {
+    background-color: #ffffff77;
+    break-inside: avoid;
+    border-top:0.5rem solid #ffffff00;
+  }
 }
 
 ul {
@@ -143,13 +162,12 @@ li {
 li.presentation {
   padding: 0.5rem;
   background-color: #ffffff77;
-  padding-top: 0.8rem;
 }
 
 li:last-child {
   margin-bottom: 0;
 }
 
-.breaking {
+.breaking:not(:first-child) {
   page-break-before:always;
 }
