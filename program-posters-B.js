@@ -250,5 +250,12 @@ var program = [
     "affiliation": "The University of Arizona",
     "title": "Measurement and analysis of climate-induced degradation of photovoltaic solar panels through accelerated-lifecycle testing",
     "duramat": false
+  },
+  {
+    "number": 110,
+    "authors": "Mar\u00edlia Braga*, Gustavo Xavier de Andrade Pinto, Anelise Medeiros Pires, Alessandro Henrique Zamboni, Lucas Rafael do Nascimento, Ricardo R\u00fcther",
+    "affiliation": "Universidade Federal de Santa Catarina (UFSC)",
+    "title": "Investigating the causes and consequences of glass cracks on double-glass large area bifacial PV modules",
+    "duramat": false
   }
 ]
