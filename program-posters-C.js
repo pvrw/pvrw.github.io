@@ -218,9 +218,9 @@ var program = [
   },
   {
     "number": 96,
-    "authors": "Sara MacAlpine*, David Bowersox",
+    "authors": "Brandon Aho, Parker Ahring, Robert Giffin, Sara MacAlpine*, Emily Modglin, Brandon Stolz",
     "affiliation": "JUWI inc",
-    "title": "Snow\u2019s bifacial boost: updated field observations and modeling implications from Colorado",
+    "title": "PV fuse fatigue \u2013 a look at accelerated fuse degradation, model limitations, and NEC compliance",
     "duramat": false
   },
   {
