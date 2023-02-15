@@ -257,5 +257,12 @@ var program = [
     "affiliation": "Universidade Federal de Santa Catarina (UFSC)",
     "title": "Investigating the causes and consequences of glass cracks on double-glass large area bifacial PV modules",
     "duramat": false
+  },
+  {
+    "number": 113,
+    "authors": "Frederic Dross, April Jeffries, Frank Faller*",
+    "affiliation": "STS",
+    "title": "What\u2019s the biggest quality challenge in 2023? The Module Purchase Agreements!",
+    "duramat": false
   }
 ]
