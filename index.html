@@ -29,6 +29,14 @@
     topic_label.setAttribute('class', 'topic')
     topic_label.appendChild(document.createTextNode(program[day]['label']))
     topic.appendChild(topic_label)
+    calendar = document.createElement('span')
+    calendar.setAttribute('class', 'calendar')
+    for (var cal_day in program) {
+      if (cal_day != day) {
+        calendar.innerHTML += " · <a href=\"#"+program[cal_day]['id']+"\">jump to "+program[cal_day]['id']+"</a>"
+      }
+    }
+    topic_label.appendChild(calendar)
     list.appendChild(topic)
     var sessions = program[day]['sessions']
     if (Array.isArray(sessions) && sessions.length) {
