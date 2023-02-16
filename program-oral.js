@@ -8,8 +8,18 @@ var program = [
         "label": "",
         "presentations": [
           {
-            "badge": "8:00 AM",
-            "presentation": "Breakfast",
+            "badge": "7:00 AM",
+            "presentation": "Check-in begins",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "7:30 AM",
+            "presentation": "Hot breakfast",
             "duramat": false
           }
         ]
@@ -225,8 +235,8 @@ var program = [
         "label": "",
         "presentations": [
           {
-            "badge": "8:00 AM",
-            "presentation": "Breakfast",
+            "badge": "7:30 AM",
+            "presentation": "Hot breakfast",
             "duramat": false
           }
         ]
@@ -418,8 +428,8 @@ var program = [
         "label": "",
         "presentations": [
           {
-            "badge": "8:00 AM",
-            "presentation": "Breakfast",
+            "badge": "7:30 AM",
+            "presentation": "Hot breakfast",
             "duramat": false
           }
         ]
