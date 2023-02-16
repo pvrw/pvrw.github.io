@@ -78,188 +78,195 @@ var program = [
   },
   {
     "number": 35,
+    "authors": "Martin Springer*, Laura Spinella, Timothy J. Silverman, Matthew Young, and Ingrid Repins",
+    "affiliation": "National Renewable Energy Laboratory",
+    "title": "Quantifying cell fragment movement of fractures c-Si mini-modules",
+    "duramat": false
+  },
+  {
+    "number": 38,
     "authors": "Ryan M. Smith*, Cecile Molto, Hubert Seigneur",
     "affiliation": "University of Central Florida",
     "title": "Determination of Module Rear-Surface Wetness Condition for PID Modeling",
     "duramat": false
   },
   {
-    "number": 38,
+    "number": 41,
     "authors": "Steve Johnston, Dirk C. Jordan, Dana B. Kern, Kristopher O. Davis, Helio R. Moutinho, and George F. Kroeger",
     "affiliation": "NREL",
     "title": "Degradation-related defect level in weathered silicon heterojunction modules characterized by deep level transient spectroscopy",
     "duramat": false
   },
   {
-    "number": 41,
+    "number": 44,
     "authors": "Joseph Chakar*, Jean-Paul Calin, Marko Pavlov, Jordi Badosa, Jean-Baptiste Puel, and Yvan Bonnassieux",
     "affiliation": "ECOLE POLYTECHNIQUE",
     "title": "How much information can we extract from photovoltaic generation data? An enhanced method to determine solar cell parameters and degradation rates from power production data",
     "duramat": false
   },
   {
-    "number": 44,
+    "number": 47,
     "authors": "Dylan J. Colvin*, Nafis Iqbal, Balaaswhin Babu, Udit Kumar, Craig J. Neal, Sudipta Seal, Max Liggett, Jannatul Ferdous Mousumi, Dana B. Sulas-Kern, Dirk C. Jordan, Laura S. Bruckman, Ina T. Martin, Roger H. French, Kristopher O. Davis",
     "affiliation": "Florida Solar Energy Center @ UCF",
     "title": "Degradation of 10-year-old silicon heterojunction system in a hot-humid climate",
     "duramat": false
   },
   {
-    "number": 47,
+    "number": 50,
     "authors": "Junpei Irikawa*, Haruhisa Hashimoto, Hiroshi Kanno, and Mikio Taguchi",
     "affiliation": "Panasonic",
     "title": "PV module lifetime in humid areas: Are 2000 hours of damp heat tests sufficient for 25 years of life?",
     "duramat": false
   },
   {
-    "number": 50,
+    "number": 53,
     "authors": "E. Ashley Gaulding, Steve W. Johnston, Joshua B. Gallon, John S. Mangum, James A. Rand, Mason J. Reed, Robert Flottemesch, Ingrid L. Repins, Timothy J Silverman, Michael G. Deceglie",
     "affiliation": "National Renewable Energy Lab",
     "title": "Insight into degradation modes observed in utility scale fielded photovoltaic modules",
     "duramat": false
   },
   {
-    "number": 53,
+    "number": 56,
     "authors": "Mauro Pravettoni",
     "affiliation": "Solar Energy Research Institute of Singapore",
     "title": "New Stresses and their Severities for the Reliability of Modules in  Floating Photovoltaics",
     "duramat": false
   },
   {
-    "number": 56,
+    "number": 59,
     "authors": "Todd Karin *, Arthur Onno, Laura Kawashiri, Max Macpherson, Tristan Erion-Lorico",
     "affiliation": "PVEL LLC",
     "title": "LID and LETID Degradation: Trends from performance testing on over 75 commercial PV module BOMs",
     "duramat": false
   },
   {
-    "number": 59,
+    "number": 62,
     "authors": "Marcel Kuehne",
     "affiliation": "Hanwha Q Cells GmbH Germany",
     "title": "Prediction of PET failures using DSC measurements",
     "duramat": false
   },
   {
-    "number": 62,
+    "number": 65,
     "authors": "Lawrence L. Kazmerski1*, Antonia Sonia.C. Dinaiz, Denio Alves Cassini, Daniel Sena Braga, Vin\u00edcius Camatta Santana, and Suellen C.S. Costa,",
     "affiliation": "University of Colorado Boulder and PUC Minas Brazil",
     "title": "Preliminary Survey of Module Quality and Performance for Brazil PV Systems",
     "duramat": false
   },
   {
-    "number": 65,
+    "number": 68,
     "authors": "Stefan Mitterhofer, Juli\u00e1n Ascencio V\u00e1squez, Xiaohong Gu",
     "affiliation": "National Institute of Standards and Technology",
     "title": "Evaluating moisture ingress in photovoltaic modules using finite element simulations and machine learning",
     "duramat": false
   },
   {
-    "number": 68,
+    "number": 71,
     "authors": "Alec Brandel, Costa Leese",
     "affiliation": "Invenergy Services LLC",
     "title": "Reverse Polarity & Diode Failures: A Case from Operations",
     "duramat": false
   },
   {
-    "number": 71,
+    "number": 74,
     "authors": "Nikola Babic ; Simon Pondaven ; Herv\u00e9 Vezin",
     "affiliation": "TotalEnergies One Tech",
     "title": "EPR as a tool to determine the onset of photovoltaic encapsulants photo-oxidative degradation",
     "duramat": false
   },
   {
-    "number": 74,
+    "number": 77,
     "authors": "Zelin Li*, Raymond J. Wieser, Xuanji Yu, Laura S. Bruckman",
     "affiliation": "Solar Durability and Lifetime Extension Center",
     "title": "Application of Irradiance Simulation For Field Photovoltaic Backsheets Degradation",
     "duramat": false
   },
   {
-    "number": 77,
+    "number": 80,
     "authors": "Ryan Ruhle*, Timothy DeLazzer, Larry Maple, Kurt Barth, Walajabad Sampath,",
     "affiliation": "Colorado State University",
     "title": "Novel module architecture for improved LCOE and streamlined approach to encapsulation to lower manufacturing cost and improve reliability",
     "duramat": false
   },
   {
-    "number": 80,
+    "number": 83,
     "authors": "Wayne Li, Devin Widrick*, Danny Fregosi, Nick Pilot, Robert Flottemesch, Jim Rand, Mason Reed",
     "affiliation": "Electric Power Research Institute",
     "title": "Field characterization of high efficiency bifacial modules",
     "duramat": false
   },
   {
-    "number": 83,
+    "number": 86,
     "authors": "Ashlee Aiello, Stefan Mitterhofer, Stephanie L. Moffitt, Soshana Smith, Stephanie S. Watson, Li-Piin Sung, Xiaohong Gu",
     "affiliation": "National Institute of Standards and Technology",
     "title": "Non-destructive confocal Raman depth profiling for early failure detection in photovoltaics",
     "duramat": false
   },
   {
-    "number": 86,
+    "number": 89,
     "authors": "Stephanie L. Moffitt*, So\u0148a Uli\u010dn\u00e1, Song-Syun Jhang, Michael Owen-Bellini, Peter Hacke, Jared Tracy,  Kaushik R. Choudhury, Laura T. Schelhas, Xiaohong Gu",
     "affiliation": "National Institute of Standards and Technology",
     "title": "PVDF-based backsheet cracking:  mapping in situ phase evolution by x-ray scattering",
     "duramat": false
   },
   {
-    "number": 89,
+    "number": 92,
     "authors": "Nathan Roosloot*, Guillaume Kegelart, Bj\u00f8rn Riise, Josefine H. Selj, Gaute Otnes",
     "affiliation": "Institute for Energy Technology",
     "title": "Adhesion Testing of Edge Sealants for Floating PV Applications",
     "duramat": false
   },
   {
-    "number": 92,
+    "number": 95,
     "authors": "Gergely T. Zimanyi, Andrew Diggs, Zitong Zhao, Reza Vatan Meidanshahi, Davis Unruh, Salman Manzoor, Mariana Bertoni, and Stephen M. Goodnick",
     "affiliation": "UC Davis Physics",
     "title": "From Femtoseconds to Gigaseconds: The SolDeg Project to Analyze Si Heterojunction Cell Degradation with Machine Learning",
     "duramat": false
   },
   {
-    "number": 95,
+    "number": 98,
     "authors": "Karan P. Rane*, Kedar Deshmukh, Ardeshir Contractor, Anil Kottantharayil, Narendra Shiradkar",
     "affiliation": "Indian Institute of Technology Bombay",
     "title": "Correlating the thermal signatures in drone-based infrared thermography with actual PV module degradation mechanisms",
     "duramat": false
   },
   {
-    "number": 98,
+    "number": 101,
     "authors": "Yi Li, Matthew Tong * Ivan Darias * Kevin Darling",
     "affiliation": "NextEra Energy Inc.",
     "title": "A Machine Learning (ML) approach to production energy loss categorization within Photovoltaic Power Plants",
     "duramat": false
   },
   {
-    "number": 101,
+    "number": 104,
     "authors": "Karissa Jensen*, Stefan Mitterhofer, Shoshana Smith, Stephanie Moffitt, and Xiaohong Gu",
     "affiliation": "National Institute of Standards and Technology",
     "title": "Effect of Thermomechanical Stress on Cracking Behaviors of Polyamide-Based Backsheets",
     "duramat": false
   },
   {
-    "number": 104,
+    "number": 107,
     "authors": "Michael Bolen*, Erika Brosz, Daniel Fregosi",
     "affiliation": "SB Energy",
     "title": "How many modules are in a representative sample set? Use statistical bootstrapping!",
     "duramat": false
   },
   {
-    "number": 107,
+    "number": 110,
     "authors": "Frances Willberg *, Kyle Boyer, Barret G. Potter, Kelly Simmons-Potter",
     "affiliation": "The University of Arizona",
     "title": "Measurement and analysis of climate-induced degradation of photovoltaic solar panels through accelerated-lifecycle testing",
     "duramat": false
   },
   {
-    "number": 110,
+    "number": 113,
     "authors": "Mar\u00edlia Braga*, Gustavo Xavier de Andrade Pinto, Anelise Medeiros Pires, Alessandro Henrique Zamboni, Lucas Rafael do Nascimento, Ricardo R\u00fcther",
     "affiliation": "Universidade Federal de Santa Catarina (UFSC)",
     "title": "Investigating the causes and consequences of glass cracks on double-glass large area bifacial PV modules",
     "duramat": false
   },
   {
-    "number": 113,
+    "number": 116,
     "authors": "Frederic Dross, April Jeffries, Frank Faller*",
     "affiliation": "STS",
     "title": "What\u2019s the biggest quality challenge in 2023? The Module Purchase Agreements!",
