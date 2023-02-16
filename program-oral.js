@@ -26,11 +26,6 @@ var program = [
             "duramat": false
           },
           {
-            "badge": "8:40 AM",
-            "presentation": "Technology tutorial",
-            "duramat": false
-          },
-          {
             "badge": "8:45 AM",
             "presentation": "Solar industry update: February 2023",
             "author": "Paul Basore",
