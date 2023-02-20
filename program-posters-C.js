@@ -257,5 +257,12 @@ var program = [
     "affiliation": "Colorado State University",
     "title": "Enhancing hardening and resilience of solar trackers under strong winds",
     "duramat": false
+  },
+  {
+    "number": 114,
+    "authors": "Gerald Spina, Kanwal Bhatti, Christina Moffet, Jason Rolak, Lou Trippel",
+    "affiliation": "First Solar",
+    "title": "Hail impact energy resilience threshold testing",
+    "duramat": false
   }
 ]
