@@ -47,7 +47,7 @@ var program = [
             "presentation": "Impacts of the US Inflation Reduction Act (IRA) on solar PV system performance, reliability and LCOE",
             "author": "Michael Woodhouse",
             "affiliation": "National Renewable Energy Laboratory",
-            "duramat": false
+            "duramat": true
           },
           {
             "badge": "9:25 AM",
