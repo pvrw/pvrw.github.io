@@ -271,5 +271,12 @@ var program = [
     "affiliation": "STS",
     "title": "What\u2019s the biggest quality challenge in 2023? The Module Purchase Agreements!",
     "duramat": false
+  },
+  {
+    "number": 119,
+    "authors": "Jackson W. Schall, Andrew Glaws, Michael Owen-Bellini, Nutiafa Y. Doumon, Timothy J Silverman, Michael Deceglie, Kent Terwillinger, Jinsong Huang, Laura T. Schelhas, Dana B. Kern",
+    "affiliation": "NREL",
+    "title": "Diagnosing Degradation in Perovskite Photovoltaic Modules with Electroluminescence and Thermal Imaging",
+    "duramat": false
   }
 ]
