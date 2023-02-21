@@ -79,7 +79,7 @@ var program = [
         "presentations": [
           {
             "badge": "10:45 AM",
-            "presentation": "Quantitative insight from an industry database",
+            "presentation": "Underperformance: Insights from an Industry Database",
             "author": "Adam Shinn",
             "affiliation": "kWh Analytics",
             "duramat": false
