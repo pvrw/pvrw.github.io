@@ -264,5 +264,12 @@ var program = [
     "affiliation": "First Solar",
     "title": "Hail impact energy resilience threshold testing",
     "duramat": false
+  },
+  {
+    "number": 117,
+    "authors": "Zennia Villanueva*, Ronnie Reyes, Cherif Kedir",
+    "affiliation": "RETC",
+    "title": "Predicting Mechanical Load Stress Relative to Clamp Zones",
+    "duramat": false
   }
 ]
