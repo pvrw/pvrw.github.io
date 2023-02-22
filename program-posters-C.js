@@ -80,7 +80,7 @@ var program = [
     "number": 36,
     "authors": "Juan Felipe Rodriguez*, Chad Kotarba, Paula Amezquita, Kevin Cano, Juan Rojas",
     "affiliation": "AGP",
-    "title": "Overview of AGP VIPV device technology",
+    "title": "IV measurement of curved PV modules for vehicle integrated applications",
     "duramat": false
   },
   {
