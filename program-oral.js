@@ -170,7 +170,7 @@ var program = [
         "presentations": [
           {
             "badge": "3:30 PM",
-            "presentation": "Coffee",
+            "presentation": "Coffee and snacks",
             "duramat": false
           }
         ]
@@ -373,7 +373,7 @@ var program = [
         "presentations": [
           {
             "badge": "3:30 PM",
-            "presentation": "Coffee",
+            "presentation": "Coffee and snacks",
             "duramat": false
           }
         ]
@@ -566,7 +566,7 @@ var program = [
         "presentations": [
           {
             "badge": "3:30 PM",
-            "presentation": "Coffee",
+            "presentation": "Coffee and snacks",
             "duramat": false
           }
         ]
