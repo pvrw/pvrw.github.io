@@ -78,7 +78,7 @@ var program = [
   },
   {
     "number": 36,
-    "authors": "Juan Felipe Rodriguez*, Chad Kotarba, Paula Amezquita, Kevin Cano, Juan Rojas",
+    "authors": "Juan Felipe Rodriguez*",
     "affiliation": "AGP",
     "title": "IV measurement of curved PV modules for vehicle integrated applications",
     "duramat": false
