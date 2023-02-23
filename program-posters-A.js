@@ -141,118 +141,125 @@ var program = [
   },
   {
     "number": 61,
+    "authors": "Jarett Zuboy*, Brittany Smith and Michael Woodhouse ",
+    "affiliation": "NREL",
+    "title": "Technoeconomic Analysis (TEA) Support",
+    "duramat": true
+  },
+  {
+    "number": 64,
     "authors": "George Kelly",
     "affiliation": "Sunset Technology Inc.",
     "title": "IEC TC 82 status",
     "duramat": false
   },
   {
-    "number": 64,
+    "number": 67,
     "authors": "James Willett*, Beth Copanas",
     "affiliation": "RES",
     "title": "Is capacity testing a reliable metric for single-axis tracking (sat) pv plant performance?",
     "duramat": false
   },
   {
-    "number": 67,
+    "number": 70,
     "authors": "John H Wohlgemuth*",
     "affiliation": "PowerMark Corp",
     "title": "PV standards activities of IEC",
     "duramat": false
   },
   {
-    "number": 70,
+    "number": 73,
     "authors": "Rich Stromberg*",
     "affiliation": "Alaska Center for Energy and Power",
     "title": "Reuse of photovoltaic modules for social and ecological benefit",
     "duramat": false
   },
   {
-    "number": 73,
+    "number": 76,
     "authors": "Daniel Herron*, Adam Shinn",
     "affiliation": "kWh Analytics",
     "title": "Solar generation index: data-driven performance trends",
     "duramat": false
   },
   {
-    "number": 76,
+    "number": 79,
     "authors": "Rachel Woods-Robinson",
     "affiliation": "University of California Berkeley",
     "title": "The carbon cost of a PhD in photovoltaics",
     "duramat": false
   },
   {
-    "number": 79,
+    "number": 82,
     "authors": "Ann Bradish*, Beth Copanas, James Willett",
     "affiliation": "Renewable Energy Systems",
     "title": "How does the density and distribution of meteorological sensors change the results of utility scale pv capacity testing?",
     "duramat": false
   },
   {
-    "number": 82,
+    "number": 85,
     "authors": "Charity Faith Sotero",
     "affiliation": "kWh Analytics",
     "title": "Extracting Actionable Insight from O&M Logs Using NLP",
     "duramat": false
   },
   {
-    "number": 85,
+    "number": 88,
     "authors": "Laura Clark*, Taylor Romshek, Stephen Ressler",
     "affiliation": "ICF",
     "title": "Module Recycling Options and Pitfalls",
     "duramat": false
   },
   {
-    "number": 88,
+    "number": 91,
     "authors": "Christine Bordonaro*, Ph.D., Pierre Metaut, James Vance",
     "affiliation": "Clearway Energy",
     "title": "Geospatial impacts of energy on large utility scale solar power plants",
     "duramat": false
   },
   {
-    "number": 91,
+    "number": 94,
     "authors": "Veronica Anderson*, Ben Browne, Jimmy Dunn, Adam Shinn",
     "affiliation": "kWh Analytics",
     "title": "Does the past predict the future?  Using historical life-to-date performance to predict future performance for operational systems",
     "duramat": false
   },
   {
-    "number": 94,
+    "number": 97,
     "authors": "Abdullah F. Al-Aboosi*, Fadhil Y. Al-Aboosi, and Wei Zhan",
     "affiliation": "Texas A&M University",
     "title": "A Future Insight of High-Impact Potential of Solar Availability and Grid-Connected Photovoltaic System Use to decarbonize Energy Sector",
     "duramat": false
   },
   {
-    "number": 97,
+    "number": 100,
     "authors": "Corson Teasley*, Scott Sheppard, Daniel Fregosi, Wayne Li",
     "affiliation": "Turbine Logic",
     "title": "Using current data to detect hardware faults at solar plants",
     "duramat": false
   },
   {
-    "number": 100,
+    "number": 103,
     "authors": "Chris Jackson",
     "affiliation": "Luminant",
     "title": "Identifying Power Losses in Large Scale Solar Generation Sites",
     "duramat": false
   },
   {
-    "number": 103,
+    "number": 106,
     "authors": "Bill Brooks",
     "affiliation": "Brooks Engineering",
     "title": "PV system fires: why they keep happening",
     "duramat": false
   },
   {
-    "number": 106,
+    "number": 109,
     "authors": "Mary Werner",
     "affiliation": "National Renewable Energy Laboratory",
     "title": "NREL's Solar Strategy",
     "duramat": false
   },
   {
-    "number": 109,
+    "number": 112,
     "authors": "William Sekulic (NREL), Greg Linder (Skyfri US)",
     "affiliation": "National Renewable Energy Laboratory",
     "title": "PV Inverter Failures cause AC Breaker damage \u2013 power quality issues and causal analysis",
