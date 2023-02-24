@@ -264,5 +264,12 @@ var program = [
     "affiliation": "National Renewable Energy Laboratory",
     "title": "PV Inverter Failures cause AC Breaker damage \u2013 power quality issues and causal analysis",
     "duramat": false
+  },
+  {
+    "number": 115,
+    "authors": "Ethan Wang, Carl Wang, Zelin Li, Raymond J. Wieser, Xuanji Yu, Stephanie L. Moffitt, Ruben Zabalza, Silvana Ayala, Matthew Brown, Xiaohong Gu, Liang Ji*, Colleen O'Brien, Michael D. Kempe, Laura S. Bruckman, Kenneth P. Boyce",
+    "affiliation": "UL",
+    "title": "Investigation of Electrical Insulation Failures on Backsheet with Aluminum Film Layer",
+    "duramat": false
   }
 ]
