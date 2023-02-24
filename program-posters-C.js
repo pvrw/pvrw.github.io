@@ -278,5 +278,19 @@ var program = [
     "affiliation": "Grenzebach Envelon GmbH",
     "title": "Structured Cover Glass in BIPV modules: properties and performance",
     "duramat": false
+  },
+  {
+    "number": 123,
+    "authors": "Lin J. Simpson,* Ian K. Teague, Jody Ford, Nathan Shih, Mahfujur Rahman, Jorge I. T. Marchand, Kirsten Perry, and Chris Deline",
+    "affiliation": "NREL",
+    "title": "Impacts of Photovoltaic Module Production from Nonuniform Soling",
+    "duramat": false
+  },
+  {
+    "number": 126,
+    "authors": "James Alfi, Peter Burgess*",
+    "affiliation": "EDF Renewables",
+    "title": "Hail Resiliency Dependence on Module Construction",
+    "duramat": false
   }
 ]
