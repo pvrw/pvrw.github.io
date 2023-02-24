@@ -271,5 +271,12 @@ var program = [
     "affiliation": "RETC",
     "title": "Predicting Mechanical Load Stress Relative to Clamp Zones",
     "duramat": false
+  },
+  {
+    "number": 120,
+    "authors": "Thilo Becker",
+    "affiliation": "Grenzebach Envelon GmbH",
+    "title": "Structured Cover Glass in BIPV modules: properties and performance",
+    "duramat": false
   }
 ]
