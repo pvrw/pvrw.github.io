@@ -43,7 +43,7 @@ var program = [
   },
   {
     "number": 19,
-    "authors": "Will Hobbs",
+    "authors": "Will Hobbs*, Timothy J Silverman",
     "affiliation": "Southern Company",
     "title": "EL imaging with the Raspberry Pi  Camera Module 3",
     "duramat": true
