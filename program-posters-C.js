@@ -283,7 +283,7 @@ var program = [
     "number": 123,
     "authors": "Lin J. Simpson,* Ian K. Teague, Jody Ford, Nathan Shih, Mahfujur Rahman, Jorge I. T. Marchand, Kirsten Perry, and Chris Deline",
     "affiliation": "NREL",
-    "title": "Impacts of Photovoltaic Module Production from Nonuniform Soling",
+    "title": "Impacts of Photovoltaic Module Production from Nonuniform Soiling",
     "duramat": false
   },
   {
