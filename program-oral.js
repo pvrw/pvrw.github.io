@@ -248,7 +248,7 @@ var program = [
           {
             "badge": "8:30 AM",
             "presentation": "Data analytics for solar PV: case studies in EL imaging and re-analysis of field data using PV-Pro",
-            "author": "Baojie Li",
+            "author": "Xin Chen and Baojie Li",
             "affiliation": "Lawrence Berkeley Laboratory",
             "duramat": true
           },
